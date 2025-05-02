@@ -735,7 +735,7 @@ align-items: center;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color; #8e8f99;
+    color: #8e8f99;
 }
 .privacy-span {
     width: 16px;
@@ -749,9 +749,13 @@ align-items: center;
     fill: transparent;
 }
 
-.user-privacy:checked+.privacy-span {
+.user-privacy:checked+.privacy-label .privacy-span {
     background-color: #404bbf;;
     border: none;
+    fill: #F4F4FD;
+}
+
+.user-privacy:checked+.privacy-label .vector-svg Х{
     fill: #F4F4FD;
 }
 
