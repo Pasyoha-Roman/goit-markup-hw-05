@@ -441,12 +441,10 @@
                         <use href="./images/modal.svg#icon-closeblack"></use>
                     </svg>
                 </button>
-                <p class="text-modal">
-                    Leave your contacts nd we will ll you back.
-                </p>
+                <p class="text-modal">Leave your contacts and we will call you back</p>
                 <form>
                     <div class="modal-form">
-                        <label class="form-text" name="name" for="user-name">Name</label>
+                        <label class="form-text" for="user-name">Name</label>
                         <div class="modal-input-container">
                             <input id="user-name" name="user-name" type="text" class="modal-input user-name" />
                             <svg class="person-svg" width="18" height="24">
@@ -454,24 +452,50 @@
                             </svg>
                         </div>
                     </div>
+                    
                     <div class="modal-form">
-                        <label class="form-text" name="name" for="user-name">Phone</label>
+                        <label class="form-text" for="user-phone">Phone</label>
                         <div class="modal-input-container">
-                            <input id="user-name" name="user-name" type="text" class="modal-input user-name" />
+                            <input id="user-phone" name="user-phone" type="text" class="modal-input user-phone" />
                             <svg class="person-svg" width="18" height="24">
                                 <use href="./images/modal.svg#icon-phone"></use>
                             </svg>
                         </div>
                     </div>
+                    
                     <div class="modal-form">
-                        <label class="form-text" name="name" for="user-name">Email</label>
+                        <label class="form-text" for="user-email">Email</label>
                         <div class="modal-input-container">
-                            <input id="user-name" name="user-name" type="text" class="modal-input user-name" />
+                            <input id="user-email" name="user-email" type="text" class="modal-input user-email" />
                             <svg class="person-svg" width="18" height="24">
                                 <use href="./images/modal.svg#icon-email"></use>
                             </svg>
                         </div>
                     </div>
+
+                    <div class="modal-input-comment">
+                        <label class="form-text" for="user-comment">Comment</label>
+                        <textarea class="comment" id="user-comment" name="user-comment" placeholder="Text input" ></textarea>
+                    </div>
+
+                    <div class="privaci-policy">
+                        <input id="user-privacy" 
+                        type="checkbox"
+                        value="true"
+                        name="user-privacy" 
+                        class="visually-hidden" />
+                        <label for="user-privacy" class="privacy-label">
+                            <span class="privacy-span">
+                                <svg class="vector-svg" width="10" height="8">
+                                    <use href="./images/modal.svg#icon-vector"></use>
+                                </svg>
+                            </span>
+                            I accept the terms and conditions of the
+                            <a class="privacy-link" href="#">PrivaciPolicy</a>
+                        </label>
+                         
+                    </div>
+                    <button class="modal-selection" type="submit">Send</button> 
                 </form>
             </div>
         </div>
