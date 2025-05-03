@@ -593,9 +593,9 @@ align-items: center;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    /* opacity: 0; */
-    /* visibility: hidden; */
-    /* pointer-events: none; */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
             visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -688,11 +688,6 @@ align-items: center;
     position: relative;
 }
 
-.modal-input-container svg {
-    fill: transparent;
-    transition: fill 0.3s ease;
-}
-
 .modal-input {
     width: 100%;
     height: 40px;
@@ -708,8 +703,8 @@ align-items: center;
     position: absolute;
     left: 16px;
     top: 50%;
+    fill: #8e8e8e;
     transform: translateY(-50%);
-    fill: transparent;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
