@@ -693,7 +693,7 @@ align-items: center;
     transition: fill 0.3s ease;
 }
 
-.modal-input:focus+svg {
+.modal-input:focus+.person-svg {
     fill: #4d5ae5;
 }
 
@@ -717,8 +717,8 @@ align-items: center;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    fill: transparent;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* fill: #8e8e8e; */
 }
 
 
